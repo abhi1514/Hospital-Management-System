@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import DashboardHome from "./pages/DashboardHome";
-import PatientRegister from "./pages/PatientRegister";
+import PatientRegister from "./pages/patientRegister";
 import AllPatients from "./pages/AllPatients";
 import PrescriptionDetails from "./pages/PrescriptionDetails";
 import PreparePrescription from "./pages/PreparePrescription";
