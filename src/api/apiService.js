@@ -3,7 +3,7 @@ import axios from "axios";
 
 // const API_BASE = "http://patilsam-001-site1.anytempurl.com";
 
-const API_BASE = import.meta.env.VITE_API_URL;
+const API_BASE = import.meta.env.productionVITE_API_URL;
 // Axios instance
 const api = axios.create({
   baseURL: API_BASE,
