@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/api/(.*)",
+      "destination": "http://patilsam-001-site1.anytempurl.com/api/$1"
+    }
   ]
 }
